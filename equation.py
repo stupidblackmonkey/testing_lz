@@ -10,7 +10,7 @@ def solv(a: float, b: float, c: float, d: float) -> float:
         raise ValueError("Нельзя извлечь корень: a - b < 0")
 
     if diff_cd == 0:
-        raise ValueError("Деление на ноль: c - d == 0")
+        raise ValueError("Деление на ноль: c - d = 0")
 
     return math.sqrt(diff_ab) / diff_cd
 
