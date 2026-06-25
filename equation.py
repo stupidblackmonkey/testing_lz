@@ -1,8 +1,6 @@
 import math
 
-
 def solv(a: float, b: float, c: float, d: float) -> float:
-
     diff_ab = a - b
     diff_cd = c - d
 
@@ -13,5 +11,3 @@ def solv(a: float, b: float, c: float, d: float) -> float:
         raise ValueError("Деление на ноль: c - d = 0")
 
     return math.sqrt(diff_ab) / diff_cd
-
-
